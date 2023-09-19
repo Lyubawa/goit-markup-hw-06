@@ -14,7 +14,8 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
   </head>
   <body>
     <!--Page header-->
@@ -41,10 +42,20 @@
             </li>
           </ul>
         </nav>
+        <button class="open-mobile-menu-btn">
+          <svg
+            class="open-mobile-menu-ikon"
+            width="24"
+            height="24"
+            aria-label="mobile menu ikon"
+          >
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
         <!--Address-->
         <address class="page-address">
           <ul class="address-list">
-            <li class="address-list-item list">
+            <li class="address-list-item list address-list-item-margin">
               <a class="address-list-link link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
@@ -59,7 +70,7 @@
       </div>
     </header>
     <main>
-      <!--Hero section-->
+      <!-- Hero section-->
       <section class="hero">
         <div class="container hero-container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
@@ -130,7 +141,8 @@
             <li class="team-list-item list">
               <img
                 class="team-list-img"
-                src="./images/1.jpg"
+                srcset="./images/1-mobile@2x.jpg 2x"
+                src="./images/1-mobile.jpg"
                 alt="Product Designer"
                 width="264"
                 height="260"
@@ -140,7 +152,7 @@
                 <p class="team-list-text">Product Designer</p>
 
                 <ul class="social-network">
-                  <li class="social-network-list-item">
+                  <li class="social-network-list-item list">
                     <a class="social-network-list-link" href="">
                       <svg
                         class="social-network-list-icon"
@@ -152,7 +164,7 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="social-network-list-item">
+                  <li class="social-network-list-item list">
                     <a class="social-network-list-link" href="">
                       <svg
                         class="social-network-list-icon"
@@ -164,7 +176,7 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="social-network-list-item">
+                  <li class="social-network-list-item list">
                     <a class="social-network-list-link" href="">
                       <svg
                         class="social-network-list-icon"
@@ -176,7 +188,7 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="social-network-list-item">
+                  <li class="social-network-list-item list">
                     <a class="social-network-list-link" href="">
                       <svg
                         class="social-network-list-icon"
@@ -194,7 +206,8 @@
             <li class="team-list-item list">
               <img
                 class="team-list-img"
-                src="./images/2.jpg"
+                srcset="./images/2-mobile@2x.jpg 2x"
+                src="./images/2-mobile.jpg"
                 alt="Frontend Developer"
                 width="264"
                 height="260"
@@ -203,7 +216,7 @@
                 <h3 class="team-list-title">Tom Ford</h3>
                 <p class="team-list-text">Frontend Developer</p>
                 <ul class="social-network">
-                  <li class="social-network-list-item">
+                  <li class="social-network-list-item list">
                     <a class="social-network-list-link" href="">
                       <svg
                         class="social-network-list-icon"
@@ -215,7 +228,7 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="social-network-list-item">
+                  <li class="social-network-list-item list">
                     <a class="social-network-list-link" href="">
                       <svg
                         class="social-network-list-icon"
@@ -227,7 +240,7 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="social-network-list-item">
+                  <li class="social-network-list-item list">
                     <a class="social-network-list-link" href="">
                       <svg
                         class="social-network-list-icon"
@@ -239,7 +252,7 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="social-network-list-item">
+                  <li class="social-network-list-item list">
                     <a class="social-network-list-link" href="">
                       <svg
                         class="social-network-list-icon"
@@ -257,7 +270,8 @@
             <li class="team-list-item list">
               <img
                 class="team-list-img"
-                src="./images/3.jpg"
+                srcset="./images/3-mobile@2x.jpg 2x"
+                src="./images/3-mobile.jpg"
                 alt="Marketing"
                 width="264"
                 height="260"
@@ -278,7 +292,7 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="social-network-list-item">
+                  <li class="social-network-list-item list">
                     <a class="social-network-list-link" href="">
                       <svg
                         class="social-network-list-icon"
@@ -290,7 +304,7 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="social-network-list-item">
+                  <li class="social-network-list-item list">
                     <a class="social-network-list-link" href="">
                       <svg
                         class="social-network-list-icon"
@@ -302,7 +316,7 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="social-network-list-item">
+                  <li class="social-network-list-item list">
                     <a class="social-network-list-link" href="">
                       <svg
                         class="social-network-list-icon"
@@ -320,7 +334,8 @@
             <li class="team-list-item list">
               <img
                 class="team-list-img"
-                src="./images/4.jpg"
+                srcset="./images/4-mobile@2x.jpg 2x"
+                src="./images/4-mobile.jpg"
                 alt="UI Designer"
                 width="264"
                 height="260"
@@ -329,7 +344,7 @@
                 <h3 class="team-list-title">Daniel Wilson</h3>
                 <p class="team-list-text">UI Designer</p>
                 <ul class="social-network">
-                  <li class="social-network-list-item">
+                  <li class="social-network-list-item list">
                     <a class="social-network-list-link" href="">
                       <svg
                         class="social-network-list-icon"
@@ -341,7 +356,7 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="social-network-list-item">
+                  <li class="social-network-list-item list">
                     <a class="social-network-list-link" href="">
                       <svg
                         class="social-network-list-icon"
@@ -353,7 +368,7 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="social-network-list-item">
+                  <li class="social-network-list-item list">
                     <a class="social-network-list-link" href="">
                       <svg
                         class="social-network-list-icon"
@@ -365,7 +380,7 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="social-network-list-item">
+                  <li class="social-network-list-item list">
                     <a class="social-network-list-link" href="">
                       <svg
                         class="social-network-list-icon"
@@ -392,7 +407,16 @@
               <div class="img-wrapper">
                 <img
                   class="portfolio-list-img"
-                  src="./images/banking.jpg"
+                  srcset="
+                    ./images/banking-desktop.jpg    360w,
+                    ./images/banking-desktop@2x.jpg 720w,
+                    ./images/banking-tablet.jpg     356w,
+                    ./images/banking-tablet@2x.jpg  712w,
+                    ./images/banking-mobile.jpg     288w,
+                    ./images/banking-mobile@2x.jpg  576w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
+                  src="./images/banking-mobile.jpg"
                   alt="Banking app"
                   width="360"
                   height="300"
@@ -412,7 +436,16 @@
               <div class="img-wrapper">
                 <img
                   class="portfolio-list-img"
-                  src="./images/cashless.jpg"
+                  srcset="
+                    ./images/cashless-desktop.jpg    360w,
+                    ./images/cashless-desktop@2x.jpg 720w,
+                    ./images/cashless-tablet.jpg     356w,
+                    ./images/cashless-tablet@2x.jpg  712w,
+                    ./images/cashless-mobile.jpg     288w,
+                    ./images/cashless-mobile@2x.jpg  576w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
+                  src="./images/cashless-mobile.jpg"
                   alt="Cashless payment"
                   width="360"
                   height="300"
@@ -432,7 +465,16 @@
               <div class="img-wrapper">
                 <img
                   class="portfolio-list-img"
-                  src="./images/meditation.jpg"
+                  srcset="
+                    ./images/meditation-desktop.jpg    360w,
+                    ./images/meditation-desktop@2x.jpg 720w,
+                    ./images/meditation-tablet.jpg     356w,
+                    ./images/meditation-tablet@2x.jpg  712w,
+                    ./images/meditation-mobile.jpg     288w,
+                    ./images/meditation-mobile@2x.jpg  576w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
+                  src="./images/meditation-mobile.jpg"
                   alt="Meditation app"
                   width="360"
                   height="300"
@@ -452,7 +494,16 @@
               <div class="img-wrapper">
                 <img
                   class="portfolio-list-img"
-                  src="./images/taxi.jpg"
+                  srcset="
+                    ./images/taxi-desktop.jpg    360w,
+                    ./images/taxi-desktop@2x.jpg 720w,
+                    ./images/taxi-tablet.jpg     356w,
+                    ./images/taxi-tablet@2x.jpg  712w,
+                    ./images/taxi-mobile.jpg     288w,
+                    ./images/taxi-mobile@2x.jpg  576w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
+                  src="./images/taxi-mobile.jpg"
                   alt="Taxi service"
                   width="360"
                   height="300"
@@ -472,7 +523,16 @@
               <div class="img-wrapper">
                 <img
                   class="portfolio-list-img"
-                  src="./images/screen.jpg"
+                  srcset="
+                    ./images/screen-desktop.jpg    360w,
+                    ./images/screen-desktop@2x.jpg 720w,
+                    ./images/screen-tablet.jpg     356w,
+                    ./images/screen-tablet@2x.jpg  712w,
+                    ./images/screen-mobile.jpg     288w,
+                    ./images/screen-mobile@2x.jpg  576w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
+                  src="./images/screen-mobile.jpg"
                   alt="Screen illustrations"
                   width="360"
                   height="300"
@@ -492,7 +552,16 @@
               <div class="img-wrapper">
                 <img
                   class="portfolio-list-img"
-                  src="./images/courses.jpg"
+                  srcset="
+                    ./images/courses-desktop.jpg    360w,
+                    ./images/courses-desktop@2x.jpg 720w,
+                    ./images/courses-tablet.jpg     356w,
+                    ./images/courses-tablet@2x.jpg  712w,
+                    ./images/courses-mobile.jpg     288w,
+                    ./images/courses-mobile@2x.jpg  576w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
+                  src="./images/courses-mobile.jpg"
                   alt="Online courses"
                   width="360"
                   height="300"
@@ -515,7 +584,7 @@
     <!--Page footer-->
     <footer class="footer">
       <div class="container footer-container">
-        <div class="footer-link-container">
+        <div class="footer-link-container footer-link-container-tablet">
           <a class="footer-link link" href="./index.html"
             >Web<span class="accent-footer">Studio</span></a
           >
@@ -524,7 +593,7 @@
             digital marketing & growth solutions.
           </p>
         </div>
-        <div class="social-media-container">
+        <div class="social-media-container footer-link-container-tablet">
           <p class="social-media-title">Social media</p>
           <ul class="social-network-footer">
             <li class="social-network-list-item">
@@ -605,7 +674,7 @@
       </div>
     </footer>
     <!-- BACKDROP WITH MODAL WINDOW -->
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
         <button class="close-btn" type="button">
           <svg
@@ -727,6 +796,104 @@
           <button class="review-form-submit" type="submit">Send</button>
         </form>
       </div>
+    </div>
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu">
+      <button class="mobile-menu-close-btn" type="button">
+        <svg
+          class="mobile-menu-close-icon"
+          width="8"
+          height="8"
+          aria-label="mobile modal close icon"
+        >
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <nav class="mobile-menu-navigation">
+        <ul class="mobile-menu-list">
+          <li class="mobile-menu-list-item list">
+            <a
+              class="mobile-menu-list-link link mobile-menu-list-link-decorate"
+              href="./index.html"
+              >Studio</a
+            >
+          </li>
+          <li class="mobile-menu-list-item list">
+            <a class="mobile-menu-list-link link" href="">Portfolio</a>
+          </li>
+          <li class="mobile-menu-list-item list">
+            <a class="mobile-menu-list-link link" href="">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <address class="modal-page-address">
+        <ul class="modal-address-list">
+          <li class="modal-address-list-item list">
+            <a class="modal-address-list-link link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+          <li class="modal-address-list-item list">
+            <a
+              class="modal-address-list-link accent-color link"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+      </address>
+
+      <ul class="modal-mobile-social-media-list list">
+        <li class="modal-mobile-social-media-list-item">
+          <a class="modal-mobile-social-media-list-link" href="">
+            <svg
+              class="social-network-list-icon"
+              width="24"
+              height="24"
+              aria-label="instagram icon"
+            >
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="modal-mobile-social-media-list-item">
+          <a class="modal-mobile-social-media-list-link" href="">
+            <svg
+              class="social-network-list-icon"
+              width="24"
+              height="24"
+              aria-label="twitter icon"
+            >
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="modal-mobile-social-media-list-item">
+          <a class="modal-mobile-social-media-list-link" href="">
+            <svg
+              class="social-network-list-icon"
+              width="24"
+              height="24"
+              aria-label="facebook icon"
+            >
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="modal-mobile-social-media-list-item">
+          <a class="modal-mobile-social-media-list-link" href="">
+            <svg
+              class="social-network-list-icon"
+              width="24"
+              height="24"
+              aria-label="linkedin icon"
+            >
+              <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
     </div>
   </body>
 </html>
