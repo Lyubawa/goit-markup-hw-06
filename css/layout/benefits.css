@@ -45,7 +45,7 @@
 .benefits-list {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 24px;}
+    column-gap: 24px;}
 
 .benefits-list-item {
     width: calc((100% - 24px) / 2);

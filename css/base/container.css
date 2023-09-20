@@ -13,6 +13,14 @@
     .container {
         width: 768px;
             }
+        @media screen and (min-width: 584px) and (max-width: 1157px) {
+            #specific-width-team-tablet {
+                width: 584px;
+            }
+            #specific-width-footer-tablet {
+            width: 584px;
+            }
+}
 }
 
 @media screen and (min-width: 1158px) {

@@ -19,7 +19,9 @@
 .accent-footer {
     color: #F4F4FD;
     }
-
+.footer-link-container{
+    margin-bottom: 72px;
+}
 .footer-text {
     font-size: 16px;
     font-weight: 400;
@@ -28,7 +30,6 @@
     text-align: left;
     color: #F4F4FD;
     display: block;
-    margin-bottom: 72px;
     }
 
 .social-media-title {
@@ -132,26 +133,27 @@
         flex-direction: row;
         align-items: baseline;
     }
-.footer-link-container{
-    margin-left: 92px;
+.footer-link-container {
+    margin-bottom: 0px;
 }
     .footer-link{
     text-align: left;
 }
 .footer-text {
     width: 264px;
-}
+    }
 
 .social-media-container {
-    display: flex;
-    flex-direction: column;
-    margin-left: 24px;
+        margin-left: 24px;
 }
 .social-media-title{
     text-align: left;
 }
+.social-network-footer {
+    margin-bottom: 0;
+}
 .subscrube-container{
-    margin-left: 92px;
+    margin-top: 72px;
 }
 .subscribe-title{
     text-align: left;
@@ -183,13 +185,12 @@
 .footer-link{
     display: inline-block;
 }
-.footer-text{
-    margin-bottom: 0;
 
-}
 .social-media-container {
-        margin-right: 80px;
-        margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+    margin-left: 0;
 }
 .social-media-title{
     display: inline;
@@ -201,7 +202,9 @@
 }
 .subscrube-container{
     margin-left: 0px;
+    margin-top: 0px;
 }
+
 .subscribe-form{
     align-items: stretch;
 }
