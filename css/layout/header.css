@@ -85,7 +85,7 @@
     }
 
     .mobile-menu-contacts{
-        margin-top: 0;
+        margin-top: auto;
     }
 .modal-address-list-link{
     color: var(--IRIS, #4D5AE5);
